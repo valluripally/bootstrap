@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="keywords" content="stories,essays,poems">
+
+	<meta name="description" content="To have a medium to give out yr writing skill">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<!--using cdn for bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS  -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap/css/bootsrapcustom.css">
+	<!--add custom css-->
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+	<div class="container">
+		<div style="background-color: antiquewhite" class="navbar navbar-fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+
+					<b>Showcase stuff</b>
+				</a>
+				<!--brand logo-->
+
+				<div class="navbar-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="boot2.html">essays</a>
+						</li>
+						<li>
+							<a href="boot3.html">Poems</a>
+						</li>
+					</ul>
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="search">
+
+						<button type="button" class="btn btn-default">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+					<!--search button-->
+					<ul class="nav navbar-nav  pull-right">
+						<li>
+							<a href="">
+								<span class="glyphicon glyphicon-user"></span>My account</a>
+						</li>
+					</ul>
+					<!--ending my account-->
+				</div>
+				<!--ending navbar collapse-->
+
+			</div>
+			<!--ending navbar container-->
+		</div>
+		<!--ending nav bar-->
+
+
+		<div class="carousel slide" id="myCarousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<!--end indicator-->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img style="width:1200 height:700" src="images/story7.jpg">
+					<div class="carousel-caption">
+						<h3> What is your best story</h3>
+						<p>Let us help you show case it</p>
+					</div>
+					<!--end caption-->
+				</div>
+				<!--item-->
+				<div class="item">
+					<img style="width:1200 height:700" src="images/rainy3.jpg">
+					<div class="carousel-caption">
+						<h3> On a rainy day</h3>
+						<p> The best poem on travel </p>
+					</div>
+					<!--end caption-->
+				</div>
+				<!--item-->
+				<div class="item">
+					<img style="width:1200 height:700" src="images/frnds9.jpg">
+					<div class="carousel-caption">
+						<h3>Moving apart </h3>
+						<p>A poem that can bring you memories</p>
+					</div>
+					<!--end caption-->
+				</div>
+				<!--item-->
+			</div>
+			<!--end carousel inner-->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!--end corousel.This is hero tag-->
+
+
+		<div class="row" id="#bigCallout">
+			<div class="col-12">
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<h3>success</h3>
+					<p>You just made a new submission</p>
+				</div>
+				<!--only for small screen-->
+				<div class="well well-small visible-sm">
+					<a href="" class="btn btn-large btn-block btn-default">call us</a>
+				</div>
+				<div class="well">
+					<div class="page-header">
+						<h2>Write more</h2>
+						<p class="lead">This is the place you get to explore more ! showcase more ! and
+							<strong>
+								<i>Be More</i>
+							</strong>
+						</p>
+						<p>We know that everyone has something that they would like to express but cant. Here, in we allow you to do it in a better
+							way</p>
+					</div>
+
+				</div>
+				<!--leading header-->
+			</div>
+			<!--well class ends-->
+		</div>
+		<!--end column-->
+		<a href="" class="btn btn-medium btn-primary">Click to add more</a>
+		<a href="" class="btn btn-medium btn-default" id="alertMe">Click to end</a>
+
+		<div class="row">
+			<div class="col-12">
+				<h2>Type of stories</h2>
+				<p class="lead">Name a genre you want and we have it all here</p>
+			</div>
+			<div class="col-6">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Stories</h3>
+
+
+					</div>
+					<!--end heading-->
+					<img style="width:500px" src="images/story2.jpg" alt="story">
+					<p style="margin-top:20px">what is Life ? Isn't it your story.</p>
+					<a href="" class="btn btn-medium btn-primary">click me to open more</a>
+				</div>
+				<!--end panel-->
+			</div>
+			<!--end col-->
+			<div class="col-6">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Descriptive Stories</h3>
+
+					</div>
+					<!--end heading-->
+					<p>Here there is complete description of objects or people</p>
+				</div>
+				<!--end panel-->
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Creative Stories</h3>
+
+					</div>
+					<!--end heading-->
+					<p>Here there is abstract ideas or imaginary thoughts</p>
+				</div>
+				<!--end panel-->
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Narrative Stories</h3>
+
+					</div>
+					<!--end heading-->
+					<p>Here there is explanation of situations</p>
+				</div>
+				<!--end panel-->
+				<a href="" class="btn btn-medium btn-primary">more types</a>
+			</div>
+			<!--end col-->
+		</div>
+		<!--ending row this will be 2 column section-->
+
+
+		<div class="row">
+
+			<div class="col-4" id="features">
+				<div class="panel">
+
+
+
+					<img style="width:300px" src="images/story2.jpg" alt="story" class="img-circle">
+					<h3 style="margin-top:20px">
+						<a href="">Poems</a>
+					</h3>
+
+				</div>
+				<!--end panel-->
+			</div>
+			<!--end col-->
+			<div class="col-4" id="features">
+				<div class="panel">
+
+
+
+					<img style="width:300px" src="images/story5.jpeg" alt="story" class="img-circle">
+					<h3 style="margin-top:20px">
+						<a href="">Essays</a>
+					</h3>
+
+
+				</div>
+				<!--end panel-->
+			</div>
+			<!--end col-->
+			<div class="col-4" id="features">
+				<div class="panel">
+
+
+
+					<img style="width:300px height:140px" src="images/friends7.jpeg" alt="story" class="img-circle">
+					<h3 style="margin-top:20px">
+						<a href="">Books</a>
+					</h3>
+
+				</div>
+				<!--end panel-->
+			</div>
+			<!--end col-->
+
+		</div>
+		<!--ending row this will be 3 column section-->
+
+
+		<hr>
+		<div class="row" id="more info">
+			<div class="col-sm-6">
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="#tab1" data-toggle="tab">Greeting cards</a>
+						</li>
+						<li>
+							<a href="#tab2" data-toggle="tab">Resume checks</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<img style="height:100px width:100px" src="images/greet.jpeg" class="thumbnail pull-left">
+							<p>Unable to decide the content of your greeting. We can help you out.Write to us the context and we will send you the
+								content. You can also interact with other users and take their suggestions.We offer you a platform to get an idea
+								and to present an idea. You can exchange ideas and can create a better version.
+								<p>
+									<p> We understand how important you want your wishes to be and therfore offer you our best services. Your request will
+										be sent to our best users for better results. If still not satisfied you can mail us again</p>
+						</div>
+						<!--pane ends-->
+						<div class="tab-pane" id="tab2">
+							<h4>Location to get your perfect resumes </h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.440095595177!2d78.
+					43349027005532!3d17.43863760574472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!
+					3m3!1m2!1s0x3bcb90c37efc57c7%3A0xaaf17e5a3b68085a!2sSTUDY+GURU+READING+LIBRARY+ROOM(ARYABHATA+BRANCH)
+					!5e0!3m2!1sen!2sin!4v1529868348124" width="100%" height="250px" frameborder="0" style="border:0"></iframe>
+
+
+							<p style="margin-top: 20px">Have all the technical skill but are ending up without job. This is the place for you where in based on your skill
+								sey your resume is written and checked.</p>
+
+
+
+						</div>
+						<!--pane ends-->
+
+					</div>
+					<!--tab content-->
+				</div>
+				<!--tabbable ends-->
+			</div>
+			<!--end column-->
+			<div class="col-sm-6">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">About Essays</h3>
+
+					</div>
+					<!--end heading-->
+					<p>Here there is complete description of objects or people</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, magni nemo aliquid cupiditate animi in. Quo enim impedit
+						veritatis reprehenderit quibusdam. Modi architecto corporis illo impedit adipisci voluptatum libero asperiores.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laborum perferendis assumenda amet. Maxime fugiat
+						placeat minus consequatur perspiciatis quae velit atque, aliquid et temporibus dolor culpa deserunt rerum ad!</p>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia minus repudiandae molestiae tenetur numquam vel obcaecati
+						eaque quidem commodi possimus, fugiat molestias voluptate nemo architecto saepe, dolorem iusto. Enim, est?
+					</p>
+				</div>
+				<!--end panel-->
+			</div>
+			<!--tab content addition done-->
+
+
+
+		</div>
+		<!--ending the container-->
+
+		<div class="container">
+			<ul class="pagination pagination-sm pull-right">
+				<li class="page-item disabled">
+					<a href="#" class="page-link">prev</a>
+				</li>
+				<li class="page-item active">
+					<a class="page-link" href="index.html">1</a>
+				</li>
+				<li class="page-item ">
+					<a class="page-link" href="boot2.html">2</a>
+				</li>
+				<li class="page-item">
+					<a class="page-link" href="boot3.html">3</a>
+				</li>
+				<li class="page-item">
+					<a href="boot2.html" class="page-link">next</a>
+				</li>
+			</ul>
+		</div>
+		<!--pagenatn container-->
+
+		<footer>
+			<div class="container">
+				<div class="row" >
+					<div class="col-4">
+						<h4>About us</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam ut assumenda quidem accusantium nulla ipsum
+							rerum minus exercitationem, nesciunt libero, veritatis nostrum, eaque aliquam eveniet consequuntur soluta. Accusantium,
+							voluptatum!</p>
+
+					</div>
+					<!--col ends-->
+					<div class="col-4">
+						<h4>List</h4>
+						<ul class="unstyled">
+							<li>
+								<a href="">Services</a>
+							</li>
+							<li>
+								<a href="">contact</a>
+							</li>
+							<li>
+								<a href="">Help</a>
+							</li>
+						</ul>
+					</div>
+					<!--col ends-->
+					<div class="col-4">
+						<h4>Folow us</h4>
+						<ul class="unstyled">
+							<li>
+								<a href="">Facebook</a>
+							</li>
+							<li>
+								<a href="">twitter</a>
+							</li>
+							<li>
+								<a href="">instagram</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--row ends-->
+			</div>
+			<!--end container-->
+		</footer>
+		<!--footer will be here-->
+
+
+
+
+		<!-- All Javascript at the bottom of the page for faster page loading -->
+
+		<!-- First try for the online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
+
+		<!-- If no online access, fallback to our hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="includes/js/script.js"></script>
+
+</body>
+
+</html>

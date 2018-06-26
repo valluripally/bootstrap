@@ -1,0 +1,106 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+text-align:center;
+}
+#features.img{
+margin:0 0 0 20px;
+}
+footer{
+    background: #333;
+    color:#eee
+    font-size:11px;
+    padding:20px;
+
+}
+footer p,h4{
+
+    color:white;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility;
+}
+
+.well .page-header
+{
+margin-top:0;
+}
+.well .page-header h2
+{
+margin-top:0;
+}
+ul.unstyled
+{
+    list-style:none;
+    padding:0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- 
+
+
+
+
+
+/* --------------------------------------
+   Global Styles
+  
+       ------------------------------------- */
+   .well
+    {
+        margin:20px 0px;
+    }
+   .alert
+   {
+       margin-top:20px;
+       display:none;
+   }
+   .tabbable img.thumbnail
+   {
+       margin:0 20px 10px 0;
+   }
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
